@@ -1,0 +1,19 @@
+# Hugging Face raw downloads (re-fetchable; contains a >100MB file that GitHub rejects)
+downloads/
+
+# HF cache lock / marker files
+*.lock
+.no_exist/
+
+# macOS junk
+.DS_Store
+._*
+__MACOSX/
+
+# Claude Code local metadata (not part of the dataset)
+.claude/
+
+# Temp scripts used for this upload
+/_setup.ps1
+/_push.ps1
+/_amend.ps1
